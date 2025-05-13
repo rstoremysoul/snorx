@@ -1,7 +1,7 @@
 {
   "name": "snorx",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start --tunnel",
     "android": "expo start --android",
@@ -18,6 +18,9 @@
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/native-stack": "^6.9.17",
     "expo": "~50.0.2",
+    "expo-constants": "~15.4.5",
+    "expo-linking": "~6.2.2",
+    "expo-router": "~3.4.6",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
     "react-native": "0.73.2",
